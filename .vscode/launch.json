@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Lambda Local Debug",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/FYI_hello_bot.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/tg_token.env",
+      "args": ["--event", "${workspaceFolder}/test_event.json"]
+    }
+  ]
+}
